@@ -13,4 +13,5 @@ Route::get('delete/{todo}', [TodoController::class, 'delete']);
 
 Route::post('store-data', [TodoController::class, 'store']);
 
-Route::post('send', [TodoController::class, 'send']);
+Route::post('sendZapier', [TodoController::class, 'sendZapier']);
+Route::post('sendDiscord', [TodoController::class, 'sendDiscord']);
