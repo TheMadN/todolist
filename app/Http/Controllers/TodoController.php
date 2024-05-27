@@ -92,7 +92,7 @@ class TodoController extends Controller
             // Retrieve todos from request
             $todos = json_decode($request->input('todos'));
     
-            $webhookUrl = 'https://hooks.zapier.com/hooks/catch/18937532/3vg02cv/'; // Replace with your Zapier webhook URL
+            $webhookUrl = 'https://hooks.zapier.com/hooks/catch/18937532/3vjrmlp/'; // Replace with your Zapier webhook URL
 
             // Encode the image as base64
             $imagePath = public_path('windeshiemLogo.png'); // Replace 'your_image.jpg' with your image file name and path
